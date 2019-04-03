@@ -12,6 +12,12 @@ export default class Stack {
 
   // 删除并返回栈顶元素
   pop() {
+    // 使用数组自带的pop方法
     return this.value.pop();
+  }
+
+  // 返回但不删除栈顶元素
+  peek() {
+    return this.value.length ? this.value[this.value.length-1] : '';
   }
 }
