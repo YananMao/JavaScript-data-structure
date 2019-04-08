@@ -1,6 +1,7 @@
 export default class Stack {
   constructor(dataArray = []) {
     // 要给一个栈定义哪些属性呢
+    // 不知道隔壁为啥这里要用线性链表来表示呢
     this.value = dataArray;
   }
 
